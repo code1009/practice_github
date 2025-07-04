@@ -21,9 +21,15 @@
     <ClCompile Include="run_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="run_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="run_1.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="run_2.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

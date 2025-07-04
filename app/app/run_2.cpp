@@ -1,27 +1,16 @@
 ﻿/////////////////////////////////////////////////////////////////////////////
 //===========================================================================﻿
 #include <iostream>
-#include <Windows.h>
 
-#include "run_1.hpp"
 #include "run_2.hpp"
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////
 //===========================================================================﻿
-int main()
+void run_2()
 {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
-    std::wcout.imbue(std::locale("ko_KR.UTF-8"));
-    std::wcin.imbue(std::locale("ko_KR.UTF-8"));
-
-    std::wcout << L"시작" << std::endl;
-
-    run_1();
-    run_2();
-
-    std::wcout << L"종료" << std::endl;
-
-	return 0;
+    std::wcout << L"run_2 함수가 호출되었습니다." << std::endl;
 }
+
