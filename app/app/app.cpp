@@ -5,6 +5,7 @@
 
 #include "run_1.hpp"
 #include "run_2.hpp"
+#include "run_3.hpp"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -20,6 +21,7 @@ int main()
 
     run_1();
     run_2();
+    run_3();
 
     std::wcout << L"종료" << std::endl;
 
