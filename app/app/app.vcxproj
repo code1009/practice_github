@@ -128,12 +128,14 @@
     <ClCompile Include="run_2.cpp" />
     <ClCompile Include="run_3.cpp" />
     <ClCompile Include="run_4.cpp" />
+    <ClCompile Include="run_5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="run_1.hpp" />
     <ClInclude Include="run_2.hpp" />
     <ClInclude Include="run_3.hpp" />
     <ClInclude Include="run_4.hpp" />
+    <ClInclude Include="run_5.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
