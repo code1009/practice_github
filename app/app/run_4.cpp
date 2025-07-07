@@ -12,5 +12,6 @@
 void run_4()
 {
     std::wcout << L"run_4 함수가 호출되었습니다." << std::endl;
+    std::wcout << L"이제 종료 해도 됩니다." << std::endl;
 }
 
